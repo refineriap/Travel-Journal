@@ -1,11 +1,11 @@
-
+import earth from "/public/earth.svg"
 
 export default function Navbar() {
     return (
-        <header className="">
-            <nav className="">
-                <img src="" alt="" className="" />
-                <span className="">this is working!!</span>
+        <header className="nav--header">
+            <nav className="nav">
+                <img src={earth} alt="" className="nav--image" />
+                <span className="nav--title">Travel Journal</span>
             </nav>
         </header>
     )
