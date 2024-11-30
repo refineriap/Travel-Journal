@@ -1,0 +1,22 @@
+.nav--header {
+    height: 100px;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav > img {
+    width: 50px;
+}
+
+.nav--title {
+    font-family: "Raleway", sans-serif;
+    color: rgb(99, 128, 184);
+    font-size: 20px;
+    margin-left: 10px;
+}
