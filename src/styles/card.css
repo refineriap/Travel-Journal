@@ -1,5 +1,7 @@
 .article--entry {
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FAF9F6;
 }
 
 .article-image-container {
@@ -17,11 +19,6 @@
     object-fit: cover;
 }
 
-.article--info a {
-    color: #FAF9F6;
-    font-size: 0.7rem;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-}
 
 .article-info-marker {
     width: 15px;
@@ -29,10 +26,35 @@
 }
 
 .article--country {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FAF9F6;
     text-transform: uppercase;
     font-size: 1rem;
     margin-right: 12px;
     font-weight: 400;
+}
+
+.article--info a {
+    font-size: 0.7rem;
+    color: #FAF9F6;
+}
+
+.article--info a:visited {
+    color: #918E9B;
+}
+
+.article--title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.article--dates {
+    font-weight: bold;
+}
+
+.article--paragraph {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }

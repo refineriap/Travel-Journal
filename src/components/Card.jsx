@@ -11,9 +11,9 @@ export default function Card() {
                 <img src={location} alt="" className="article-info-marker" />
                 <span className="article--country">Japan</span>
                 <a href="https://maps.app.goo.gl/UNk7Kx4SKgwi9QFb9" className="">View on Google Maps</a>
-                <h2 className="">Tokyo</h2>
-                <p className="">12 Jan, 2024 - 24 Jan, 2024</p>
-                <p className="">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. </p>
+                <h2 className="article--title">Tokyo</h2>
+                <p className="article--dates">12 Jan, 2024 - 24 Jan, 2024</p>
+                <p className="article--paragraph">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. </p>
             </div>
         </article>
     )
