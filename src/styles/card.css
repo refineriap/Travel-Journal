@@ -1,3 +1,38 @@
-.card--title {
-    color: rgb(99, 128, 184);
+.article--entry {
+    display: flex;
+}
+
+.article-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 5px; 
+    margin-right: 19px;
+}
+
+.article-main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.article--info a {
+    color: #FAF9F6;
+    font-size: 0.7rem;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.article-info-marker {
+    width: 15px;
+    margin-right: 4px;
+}
+
+.article--country {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FAF9F6;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-right: 12px;
+    font-weight: 400;
 }
