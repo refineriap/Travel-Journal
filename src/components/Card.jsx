@@ -1,11 +1,12 @@
 import location from "/location.svg"
+import PropTypes from 'prop-types';
 
 
-export default function Card() {
+export default function Card({ image }) {
     return (
         <article className="article--entry">
             <div className="article-image-container">
-                <img src="/tokyo.jpg" alt="" className="article-main-image" />
+                <img src={image} alt="" className="article-main-image" />
             </div>
             <div className="article--info">
                 <img src={location} alt="" className="article-info-marker" />
@@ -17,4 +18,9 @@ export default function Card() {
             </div>
         </article>
     )
+
 }
+
+Card.propTypes = {
+    image: PropTypes.string.isRequired, 
+};
