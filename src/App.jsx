@@ -12,6 +12,7 @@ function App() {
       <main className="container">
         <Card
           image={data[0].image}
+          country={data[0].country}
         />
       </main>
     </>

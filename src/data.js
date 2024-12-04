@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         image: "tokyo.jpg",
-        country:"",
+        country:"Japan",
         location:"",
         city:"",
         date:"",
