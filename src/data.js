@@ -10,17 +10,17 @@ export default [
     },
     {   
         id: 2,
-        image:"",
-        country:"",
+        image:"mexico.jpg",
+        country:"Mexico",
         location:"",
-        city:"",
+        city:"CDMX",
         date:"",
         text:""
     },
     {
         id: 3,
         image:"",
-        country:"",
+        country:"Colombia",
         location:"",
         city:"",
         date:"",

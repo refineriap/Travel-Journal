@@ -11,3 +11,13 @@ body {
 .container {
     margin: 46px 30px;
 }
+
+.time {
+    color: #7f8fc1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}

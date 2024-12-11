@@ -6,14 +6,26 @@ import './App.css'
 
 function App() {
 
+  const travelCard = data.map((item) => {
+    return (
+      <Card
+        key={item.id}
+        image={item.image}
+        country={item.country}
+      />
+    );
+  });
+
+  
   return (
     <>
       <Navbar />
+      <div className="time">
+        <h3>{new Date().toLocaleTimeString()}</h3>
+      </div>
+
       <main className="container">
-        <Card
-          image={data[0].image}
-          country={data[0].country}
-        />
+        {travelCard}
       </main>
     </>
   )
