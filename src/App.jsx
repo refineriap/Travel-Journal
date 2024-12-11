@@ -12,11 +12,15 @@ function App() {
         key={item.id}
         image={item.image}
         country={item.country}
+        location={item.location}
+        city={item.city}
+        date={item.date}
+        text={item.text}
       />
     );
   });
 
-  
+
   return (
     <>
       <Navbar />
