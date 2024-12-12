@@ -1,8 +1,11 @@
 import marker from "/location.svg"
 import PropTypes from 'prop-types';
+// import { useState } from 'react'
 
 
 export default function Card({ image, country, location, city, date, text }) {
+   
+
     return (
         <article className="article--entry">
             <div className="article-image-container">
@@ -22,10 +25,11 @@ export default function Card({ image, country, location, city, date, text }) {
 }
 
 Card.propTypes = {
-    image: PropTypes.string.isRequired, 
-    country: PropTypes.string.isRequired, 
-    location: PropTypes.string.isRequired, 
-    city: PropTypes.string.isRequired, 
-    date: PropTypes.string.isRequired, 
-    text: PropTypes.string.isRequired, 
+    image: PropTypes.string.isRequired,
+    country: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    // on: PropTypes.bool.isRequired,
 };

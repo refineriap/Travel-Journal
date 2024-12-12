@@ -13,11 +13,12 @@ body {
 }
 
 .time {
-    color: #7f8fc1;
+    color: #a0a7bf;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 11px;
+    padding: 20px 0px 0px 36px;
     
 }

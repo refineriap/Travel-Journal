@@ -4,6 +4,7 @@ import Card from "./components/Card"
 import data from "./data.js"
 import './App.css'
 
+
 function App() {
 
   const travelCard = data.map((item) => {
@@ -16,17 +17,17 @@ function App() {
         city={item.city}
         date={item.date}
         text={item.text}
+        on={item.on}
       />
     );
   });
 
-
   return (
     <>
-      <Navbar />
       <div className="time">
         <h3>{new Date().toLocaleTimeString()}</h3>
       </div>
+      <Navbar />
 
       <main className="container">
         {travelCard}
