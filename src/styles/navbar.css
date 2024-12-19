@@ -1,6 +1,10 @@
 .nav--header {
+    position: sticky;
+    top: 0;
     height: 100px;
     padding: 10px;
+    background-color: #061934;
+    /* width: 100%; */
 }
 
 .nav {
